@@ -26,9 +26,24 @@ AI 모델 (꽃 분류)를 사용하기 위한 API 배포 서버
 - 다운 받은 파일은 predict.py 경로와 같은 위치에 저장
 
 (사용하기 전 python 파일 실행)
-- URL : http://localhost:5000/predict(POST)
+- URL : http://localhost:5000/predict (POST)
 - Content-Type : multipart/form-data
 - Body : 사진
+
+<요청>
+![](./asset/request.png)
+
+<image 사진>
+
+![](./asset/sunflower.jpg)
+
+
+
+<응답>
+
+![](./asset/response.png)
+
+
 
 위 정보를 담아 REST API 요청
 - 응답 결과
