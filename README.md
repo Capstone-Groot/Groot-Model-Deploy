@@ -16,7 +16,15 @@ AI 모델 (꽃 분류)를 사용하기 위한 API 배포 서버
 - keras
 - PIL
 
+
+
 ### 사용 방법
+
+모델 다운 받기
+
+- https://drive.google.com/file/d/1MhX7lbFkhVgX0DZ82-TPzWLv2g6xvvH0/view?usp=sharing
+- 다운 받은 파일은 predict.py 경로와 같은 위치에 저장
+
 (사용하기 전 python 파일 실행)
 - URL : http://localhost:5000/predict(POST)
 - Content-Type : multipart/form-data
