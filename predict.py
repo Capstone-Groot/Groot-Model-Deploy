@@ -1,13 +1,14 @@
 # 필수 패키지를 import합니다.
-from keras.applications import ResNet50
-from keras.preprocessing.image import img_to_array
-from keras.applications import imagenet_utils
-from PIL import Image
+import io
+
 import numpy as np
 import tensorflow as tf
-from flask import Flask, flash, request, redirect, url_for, jsonify
-import io
 import tensorflow.keras as keras
+from PIL import Image
+from flask import Flask, flash, request, redirect, url_for, jsonify
+from keras.applications import ResNet50
+from keras.applications import imagenet_utils
+from keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}

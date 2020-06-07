@@ -37,8 +37,8 @@ AI 모델 (꽃 분류)를 사용하기 위한 API 배포 서버
   
 #### tensorflow, Keras등 라이브러리가 없는 곳에서 사용할 경우
 Docker 사용
-- Docker Image File 만듥
+- Docker Image File 만들기 : 
 `docker build -t <Tag 이름> .`
 
-- Docker 실행
+- Docker 실행 : 
 `docker run -d -p <사용할 port>:5000 <Tag 이름>`
